@@ -1,0 +1,232 @@
+fileFormatVersion: 2
+guid: 7ecba095964ade142abe27eef3a29ec4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Space Cave Tileset_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 570c339023380ac42bfe2054e360472d
+      internalID: 1831601135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Space Cave Tileset_0: 444995318
+      Space Cave Tileset_1: -952182630
+      Space Cave Tileset_10: 855937528
+      Space Cave Tileset_11: -2136503374
+      Space Cave Tileset_12: 1948889381
+      Space Cave Tileset_13: 263787796
+      Space Cave Tileset_14: -922616241
+      Space Cave Tileset_15: -1056759004
+      Space Cave Tileset_16: 1831601135
+      Space Cave Tileset_17: 582309327
+      Space Cave Tileset_18: -1371524086
+      Space Cave Tileset_19: 1095666681
+      Space Cave Tileset_2: 1913524154
+      Space Cave Tileset_20: 779989567
+      Space Cave Tileset_21: 986990165
+      Space Cave Tileset_22: 1840057235
+      Space Cave Tileset_23: -1162955459
+      Space Cave Tileset_24: -1449838685
+      Space Cave Tileset_25: 1956714638
+      Space Cave Tileset_26: 322878247
+      Space Cave Tileset_27: -1327539967
+      Space Cave Tileset_28: 361962544
+      Space Cave Tileset_29: -1348211615
+      Space Cave Tileset_3: -1546237466
+      Space Cave Tileset_30: 2013990047
+      Space Cave Tileset_31: -1049269289
+      Space Cave Tileset_32: -100851084
+      Space Cave Tileset_33: -598149963
+      Space Cave Tileset_34: -1207764355
+      Space Cave Tileset_35: -318530757
+      Space Cave Tileset_36: 152660771
+      Space Cave Tileset_37: 1637905090
+      Space Cave Tileset_38: 866497222
+      Space Cave Tileset_39: 896572777
+      Space Cave Tileset_4: 1887990465
+      Space Cave Tileset_40: -1318278193
+      Space Cave Tileset_41: -253487451
+      Space Cave Tileset_42: -89575265
+      Space Cave Tileset_43: -1012675238
+      Space Cave Tileset_44: 635523789
+      Space Cave Tileset_45: -148772113
+      Space Cave Tileset_46: -1213969036
+      Space Cave Tileset_47: -1237063924
+      Space Cave Tileset_48: 1671585980
+      Space Cave Tileset_49: -1164573088
+      Space Cave Tileset_5: -1355528901
+      Space Cave Tileset_50: 764692162
+      Space Cave Tileset_51: -403636839
+      Space Cave Tileset_52: -1491429567
+      Space Cave Tileset_53: 1535881084
+      Space Cave Tileset_54: -2110801955
+      Space Cave Tileset_55: 558851570
+      Space Cave Tileset_56: 1769885501
+      Space Cave Tileset_57: -1375424769
+      Space Cave Tileset_58: 2088247416
+      Space Cave Tileset_59: 1643764154
+      Space Cave Tileset_6: -179819958
+      Space Cave Tileset_60: 515306721
+      Space Cave Tileset_61: -1215054533
+      Space Cave Tileset_62: -1974777309
+      Space Cave Tileset_63: -457989126
+      Space Cave Tileset_64: -722479358
+      Space Cave Tileset_65: 665322614
+      Space Cave Tileset_66: -424241867
+      Space Cave Tileset_67: -1368359427
+      Space Cave Tileset_68: -536905914
+      Space Cave Tileset_69: -1125710356
+      Space Cave Tileset_7: 1835546827
+      Space Cave Tileset_70: 2040551698
+      Space Cave Tileset_8: 1259948432
+      Space Cave Tileset_9: -360530468
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
