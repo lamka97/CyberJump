@@ -207,7 +207,7 @@ MonoBehaviour:
   - {fileID: 651931216}
   - {fileID: 678825043}
   platform: {fileID: 112530593}
-  moveSpeed: 3
+  moveSpeed: 1.5
 --- !u!1 &110588106
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,7 +488,6 @@ GameObject:
   - component: {fileID: 178001246}
   - component: {fileID: 178001245}
   - component: {fileID: 178001252}
-  - component: {fileID: 178001244}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Player
@@ -496,23 +495,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &178001244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 178001243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d0303f1156f554f9613c8e6f7539ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lives:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  livesRemaining: 3
 --- !u!95 &178001245
 Animator:
   serializedVersion: 5
@@ -552,7 +534,7 @@ MonoBehaviour:
   GroundLayer:
     serializedVersion: 2
     m_Bits: 64
-  speed: 2
+  speed: 1.5
   jumpPower: 6.5
   totalJumps: 2
 --- !u!70 &178001247
@@ -26428,7 +26410,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf00000000000000000000803f0000803f0000803f00000000000000000000803f00000000
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
@@ -27297,7 +27279,7 @@ MonoBehaviour:
   - {fileID: 1884517100}
   - {fileID: 1227402491}
   platform: {fileID: 1497335449}
-  moveSpeed: 2
+  moveSpeed: 1.5
 --- !u!1 &1227402490
 GameObject:
   m_ObjectHideFlags: 0
@@ -30930,7 +30912,7 @@ MonoBehaviour:
   - {fileID: 1757284284}
   - {fileID: 389051150}
   platform: {fileID: 1416893649}
-  moveSpeed: 2
+  moveSpeed: 2.5
 --- !u!1 &1954601914
 GameObject:
   m_ObjectHideFlags: 0

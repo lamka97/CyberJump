@@ -121,7 +121,7 @@ public class movement : MonoBehaviour
 
     void Jump()
     {
-        if (isGrounded)         // Pokud je hráè na zemi provede se skok.
+        if (isGrounded)   // Pokud je hráè na zemi provede se skok.
         {
             multipleJump = true; //možnost dalšího skoku se zmìní na true
             availableJumps--; //sníží poèet skokù ve vzduchu které máme nastavené
@@ -131,18 +131,18 @@ public class movement : MonoBehaviour
         }
         else //pokud hráè není na zemi provede poèet možných skokù který jsou ještì k dispozici
         {
-            if(coyoteJump)
+            if(coyoteJump) //pokud je aktivní coyote jump
             {
-                multipleJump = true;
-                availableJumps--;
+                multipleJump = true; //povolí další skok
+                availableJumps--; //sníží poèet dostupných skokù
 
-                rb.velocity = Vector2.up * jumpPower;
-                animator.SetBool("Jump", true);
+                rb.velocity = Vector2.up * jumpPower; //síla skoku
+                animator.SetBool("Jump", true); //spuštìní animace skoku
             }
 
             if (multipleJump && availableJumps > 0)
             {
-                availableJumps--;
+                availableJumps--; 
 
                 rb.velocity = Vector2.up * jumpPower;
                 animator.SetBool("Jump", true);

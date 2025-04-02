@@ -7,10 +7,18 @@ public class Life : MonoBehaviour
 {
     public Image[] lives;
     public int livesRemaining;
-    //3 životy - 3 obrázky (0,1,2)
-    //2 životy - 2 obrázky (0,1,[2])
-    //1 životy - 1 obrázky (0,[1],[2])
-    //0 životy - 0 obrázky ([0],[1],[2]) PROHRA
+    //3 životy - 3 ikony (0,1,2)
+    //2 životy - 2 ikony (0,1,[2])
+    //1 životy - 1 ikona (0,[1],[2])
+    //0 životy - bez ikony ([0],[1],[2]) PROHRA
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Damage"))
+        {
+            LoseLife();
+        }
+    }
 
     public void LoseLife()
     {
